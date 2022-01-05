@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple HTMl table using thead and tbody</title>
+	</head>
+	<body>
+    <table border="2px" width="80%"  cellspacing="0" cellpadding="4" style="text-align: center;">
+	  <thead style="background-color: black;color: #fff;">
+		<tr>
+			<th rowspan="4">Day</th>
+			<!-- <th>Students</th> -->
+			<th colspan="5">Seminar</th>
+		</tr>
+		<tr>
+		   <!-- <th>Id</th>
+		   <th>Name</th> -->
+		   <th colspan="3">Schedule</th>
+		   <th rowspan="3">Topic</th>
+		<tr>
+            <tr>
+                <!-- <th>Id</th> -->
+                <!-- <th>Name</th> -->
+                <th colspan="2">Begin</th>
+                <th colspan="1">End</th>
+             <tr>
+	  </thead>
+		<tbody>
+		  <tr>
+			<td >Monday</td>
+			<td colspan="2" style="color:blue;">8:00 AM</td>
+			<td style="color:red;">5:00 PM</td>
+			<td>Node js</td>
+		  </tr>
+		  <tr>
+			<td rowspan="3">Tuesday</td>
+
+			<td colspan="2" style="color:blue;">8:00 AM</td>
+			<td style="color:red;">10:00 AM</td>
+			<td>Express JS</td>
+		  </tr>			
+	      <tr>
+			<!-- <td >Student List</td> -->
+
+			<td colspan="2" style="color:blue;">11:00 AM</td>
+			<td style="color:red;">1:00 PM</td>
+			<td>View Engines</td>
+		  </tr>
+		  <tr>
+			<!-- <td >Student List</td> -->
+
+			<td colspan="2" style="color:blue;">2:00 PM</td>
+			<td style="color:red;">5:00 PM</td>
+			<td>Mongo DB</td>
+		  </tr>
+          <tr>
+			<td >Wednesday</td>
+
+			<td colspan="2" style="color:blue;">8:00 AM</td>
+			<td style="color:red;">5:30 PM</td>
+			<td>React</td>
+		  </tr>			
+		</tbody>
+	</table>
+	</body>
+</html>
